@@ -27,4 +27,4 @@ module.exports=[{href:"./images/icons.svg#icon-logo-1"},{href:"./images/icons.sv
 },{"./refs":"VyiV","../templates/studio-tpl/features.hbs":"YTpm","../data/studio-data/features.json":"VZW5","../templates/studio-tpl/work.hbs":"c6tI","../data/studio-data/work.json":"UXgx","../templates/studio-tpl/team.hbs":"jjxy","../data/studio-data/team.json":"uxTJ","../templates/studio-tpl/clients.hbs":"OmOV","../data/studio-data/clients.json":"jAi8"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/studio");
 },{"./sass/main.scss":"clu1","./js/studio":"Nsab"}]},{},["Focm"], null)
-//# sourceMappingURL=/parcel-project-template/src.2722d39e.js.map
+//# sourceMappingURL=/goit-markup-js-hw/src.2f31fb25.js.map
