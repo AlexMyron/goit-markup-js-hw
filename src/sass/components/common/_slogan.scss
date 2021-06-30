@@ -1,0 +1,19 @@
+.slogan {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: $white-color;
+
+  @include media-min (1200, 9999) {
+    &--lefted {
+      text-align: left;
+    }    
+  }
+}

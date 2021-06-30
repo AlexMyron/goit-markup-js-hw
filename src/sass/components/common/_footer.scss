@@ -1,0 +1,100 @@
+.footer {
+  background-color: $hero-footer-bg-color;
+}
+
+.footer__wrapper {  
+  @include media-min (768, 1199) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: 60px;
+  }
+
+  @include media-min (1200, 9999) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+}
+
+.footer-contacts,
+.footer-links {
+  text-align: center;
+  margin-bottom: 60px;
+
+  @include media-min (768, 1199) {
+    margin-bottom: 0;
+  }
+
+  @include media-min (1200, 9999) {
+    margin-bottom: 0;
+    text-align: left;    
+  }
+}
+
+.footer-contacts {
+  @include media-min (1200, 9999) {
+    margin-right: 70px;
+  }
+}
+
+.address-list {
+  margin-top: 20px;
+}
+
+.address-list__map-link {
+  display: block;
+  margin-bottom: 8px;
+
+  @include font-silo (null, 14px, 1.71, 0.03em, $white-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.address-list__item {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.address-list__link {  
+  font-style: normal;
+  @include font-silo (null, 14px, 1.71, 0.03em, $contact-link-color);
+
+  text-decoration: none;
+}
+
+//footer-form
+
+.footer-form {
+  text-align: center;
+
+  @include media-min (768, 1199) {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  @include media-min (1200, 9999) {
+    width: auto;
+    margin: 0;
+    padding-top: 12px;
+  }
+}
+
+.footer-form__email {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 16px;
+
+  background-color: transparent;
+  border: 1px solid $sign-up-border-color;
+  border-radius: 4px;
+  color: $white-color;
+
+  @include media-min (1200, 9999) {
+    display: inline-block;
+    width: 358px;
+  }
+}

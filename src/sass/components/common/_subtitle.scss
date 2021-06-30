@@ -1,0 +1,11 @@
+.subtitle {
+  margin-bottom: 30px;
+
+  @include font-silo (700, 28px, 1.171, 0.03em, null);
+
+  @include media-min (1200, 9999) {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+  }
+}

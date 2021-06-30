@@ -1,0 +1,36 @@
+.social {
+  @include centeredFlex(flex);
+  background-color: transparent;
+}
+
+.social__item {
+  & + & {
+    margin-left: 10px;
+  }
+}
+
+.social__link {
+  @include centeredFlex(flex);
+  padding: 12px;
+  border-radius: 50%;
+
+  color: $social-link-color;
+
+  transition: background-color $duration $timing-function, color $duration $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $white-color;
+  }
+
+  &--grey {
+    background-color: $footer-link-color;
+  }
+}
+
+.social__icon {
+  &--white {
+    fill: $white-color;
+  }
+}

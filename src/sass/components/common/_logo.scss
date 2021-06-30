@@ -1,0 +1,24 @@
+.logo {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  font-family: Raleway, sans-serif;
+  @include font-silo (700, 26px, 1.19, 0.03em, null);
+  text-decoration: none;
+  
+  &--accent-color {
+    color: $accent-color;
+  }
+
+  &--header {
+    color: $logo-color;
+  }
+
+  &--footer {
+    padding: 0;
+
+    color: $white-color;
+  }
+}
+

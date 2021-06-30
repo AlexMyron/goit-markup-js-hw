@@ -1,0 +1,16 @@
+<h2 class="visually-hidden">Наши Преимущества</h2>
+<div class="container container--features">
+  <ul class="features__list">
+    {{#each this}}
+    <li class="features__item">
+      <div class="features__thumb">
+        <svg class="features__icon" width="70" height="70">
+          <use href={{svg-url}}></use>
+        </svg>
+      </div>
+      <h3 class="features__title">{{item-name}}</h3>
+      <p class="features__text">
+        {{item-text}}
+      </p>
+    </li>
+    {{/each}}

@@ -1,0 +1,43 @@
+@mixin centeredFlex($type: flex) {
+  display: $type;
+  justify-content: center;
+  align-items: center;
+} 
+
+@mixin transition($type) {
+  transition: $type $duration $timing-function;
+}
+
+@mixin font-silo ($weight, $size, $lh, $ls, $color) {
+  @if $weight {
+    font-weight: $weight;
+  }
+
+  @if $size {
+    font-size: $size;
+  }
+
+  @if $lh {
+    line-height: $lh;
+  }
+  
+  @if $ls {
+    letter-spacing: $ls;
+  }
+  
+  @if $color {
+    color: $color;
+  }
+}
+
+@mixin media-min ($min-width, $max-width) {
+  @media screen and (min-width: $min-width * 1px) and (max-width: $max-width * 1px ) {
+    @content;
+  }
+}
+
+@mixin media-max ($width) {
+  @media screen and (max-width: $width * 1px) {
+    @content;
+  }
+}

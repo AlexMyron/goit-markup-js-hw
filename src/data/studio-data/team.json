@@ -1,0 +1,45 @@
+[
+{
+  "srcset": "./images/product-designer.jpg 1x, ./images/product-designer@2x.jpg 2x",
+  "src": "./images/product-designer.jpg",
+  "description": "Product Designer",
+  "name": "Игорь Демьяненко",
+  "occupation": "Product Designer",
+  "social": {
+    "href": "./images/icons.svg#icon-twitter"
+  }
+},
+{
+  "srcset": "./images/frontend-developer.jpg 1x, ./images/frontend-developer@2x.jpg 2x",
+  "src": "./images/frontend-developer.jpg",
+  "description": "Frontend Developer",
+  "name": "Ольга Репина",
+  "occupation": "Frontend Developer",
+  "social": {
+    "href": "./images/icons.svg#icon-twitter"
+  }
+},
+{
+  "srcset": "./images/marketing.jpg 1x, ./images/marketing@2x.jpg 2x",
+  "src": "./images/marketing.jpg",
+  "description": "Marketing",
+  "name": "Николай Тарасов",
+  "occupation": "Marketing",
+  "social": [
+    {"href": "./images/icons.svg#icon-instagram"},
+    {"href": "./images/icons.svg#icon-twitter"},
+    {"href": "./images/icons.svg#icon-facebook"},
+    {"href": "./images/icons.svg#icon-linkedin"}
+  ]
+},
+{
+  "srcset": "./images/ui-designer.jpg 1x, ./images/ui-designer@2x.jpg 2x",
+  "src": "./images/ui-designer.jpg",
+  "description": "ui-designer",
+  "name": "Михаил Ермаков",
+  "occupation": "UI-Designer",
+  "social": {
+    "href": "./images/icons.svg#icon-twitter"
+  }
+}
+]

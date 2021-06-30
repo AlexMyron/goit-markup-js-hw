@@ -1,0 +1,16 @@
+<div class="container--work container">
+  <h2 class="subtitle">Чем мы занимаемся</h2>
+  <ul class="work__list">
+
+    {{#each this}}
+    <li class="work__item">
+      <div class="work__thumb">
+        <img srcset={{src-set}} src={{src}} alt={{description}}
+          width="370" />
+        <h3 class="work__subtitle">{{title}}</h3>
+      </div>
+    </li>
+    {{/each}}
+
+  </ul>
+</div>
