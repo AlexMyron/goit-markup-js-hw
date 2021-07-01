@@ -1,0 +1,21 @@
+<ul class="portfolio">
+
+  {{#each this}}
+  <li class="portfolio__item">
+    <a href="" class="portfolio__link link">
+      <div class="portfolio__thumb">
+        <img srcset={{srcset}} src={{src}} alt={{alt}}
+          class="portfolio__img" loading="lazy" />
+        <p class="portfolio__overlay">
+          {{overlay-text}}
+        </p>
+      </div>
+      <div class="portfolio__wrapper">
+        <h2 class="portfolio__subtitle">{{title}}</h2>
+        <p class="portfolio__text">{{type}}</p>
+      </div>
+    </a>
+  </li>
+  {{/each}}
+
+</ul>

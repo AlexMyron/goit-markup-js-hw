@@ -1,4 +1,4 @@
-import refs from './refs';
+import { refs, setSection } from './refs';
 import featuresTpl from '../templates/studio-tpl/features.hbs';
 import featuresData from '../data/studio-data/features.json';
 import workTpl from '../templates/studio-tpl/work.hbs';
@@ -19,7 +19,3 @@ setSection(refs.team, teamTpl, teamData);
 
 // clients
 setSection(refs.clients, clientsTpl, clientsData);
-
-function setSection(ref, template, data) {
-  ref.innerHTML = template(data);
-}
