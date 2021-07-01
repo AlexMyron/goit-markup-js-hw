@@ -7,7 +7,6 @@ export const refs = {
 };
 
 export const refsPtf = {
-  section: document.querySelector('.portfolio-section'),
   container: document.querySelector('.container--portfolio-section'),
 };
 
